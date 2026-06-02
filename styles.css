@@ -1,0 +1,29 @@
+
+body {
+    font-family : Inter, 
+                  system-ui, 
+                  -apple-system, 
+                  BlinkMacSystemFont, 
+                  "Segoe UI", 
+                  Roboto, 
+                  Arial, 
+                  sans-serif; 
+    /* background-color: yellow; */
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center; 
+}
+
+/* the dot below tells CSS to 
+   target a class in HTML     */
+.headshot {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
