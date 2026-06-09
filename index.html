@@ -1,10 +1,26 @@
+<!-- NOTE:= HTML files don't compile in the same way that C and Python files 
+            compile. Instead, they require a browser to process them. To view the 
+            changes made to your html file locally:
+            
+            1. make a local server : 'python3 -m http.server 8000' 
+            2. open html in server : 'wslview http://localhost:8000'
+            3. kill the server : 'Ctrl + C' in terminal where server is running
+            4. kill the server: 'lsof -i :8000' 
+                                'kill -9 <pid>''
+            
+            it's important to remember that you don't have to kill and then relaunch 
+            the local server on your computer in order to see changes done to your 
+            styles.css, index.html or script.js files. instead, simply do a hard 
+            reset in your browser (for windows, this is Ctrl + Shift + R)
+            -->
+
 <!DOCTYPE html> 
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <title>My Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>    
 
@@ -26,14 +42,11 @@
     <!-- Work Experiences Section -->
     <section> 
         <h2> Professional Experiences </h2>
-
     </section>
 
     <!-- Programming Projects -->
     <section> 
         <h2> Programming Projects </h2>
-
     </section>
-    
 </body>
 </html>
